@@ -1,3 +1,5 @@
+import {useState} from "react";
+
 export default function CCC() {
   const [cnt, setCnt] = useState(0);
 

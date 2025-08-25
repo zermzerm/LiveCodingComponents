@@ -1,3 +1,5 @@
+import {useState, useEffect} from "react";
+
 export default function FDFA() {
   const [value, setValue] = useState("");
   const [isLoading, setIsLoading] = useState(true);
