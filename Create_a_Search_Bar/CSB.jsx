@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//Create a search bar component that filters a list of items as the user types.
 export default function CSB() {
   const [value, setValue] = useState([]);
 

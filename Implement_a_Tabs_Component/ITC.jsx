@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//Create a tabs component where each tab displays different content when selected.
 export default function ITC({tabs}) {
   const [activeTab, setActiveTab] = useState(<div>선택된게 없음</div>);
 

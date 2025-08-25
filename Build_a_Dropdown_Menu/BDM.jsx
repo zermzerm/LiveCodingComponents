@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//Create a dropdown menu component that displays a list of items when clicked.
 export default function BDM() {
   const [isClicked, setIsClicked] = useState(false);
 

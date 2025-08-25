@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//Create a to-do list component where users can add, remove, and mark items as complete.
 export default function BTDL() {
   const [list, setList] = useState([]);
   const [content, setContent] = useState("");
